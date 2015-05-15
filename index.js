@@ -13,11 +13,8 @@ function CjsxFilter (inputTree, options) {
     return new CjsxFilter(inputTree, options);
   }
 
-  this.inputTree = inputTree;
+  Filter.call(this, inputTree, options)
   this.options = options || {};
-  if (this.options.extensions) {
-    this.extensions = options.extensions;
-  }
 }
 
 CjsxFilter.prototype.extensions = ['cjsx'];
