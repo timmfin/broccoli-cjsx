@@ -16,7 +16,7 @@
     "compile"
   ],
   "dependencies": {
-    "broccoli-filter": "timmfin/broccoli-filter#broccoli-persistent-filter",
+    "broccoli-filter": "timmfin/broccoli-filter#broccoli-persistent-filter-with-symlinked-dirs",
     "coffee-react-transform": "~3.0.1"
   },
   "devDependencies": {
